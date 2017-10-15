@@ -1,0 +1,33 @@
+{
+    "name": "path-token-replacer-loader",
+    "version": "1.0.0",
+    "description": "Path token replacer loader for webpack",
+    "main": "index.js",
+    "scripts": {
+      "test": "webpack && node ./test.bundle.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/layoutzweb/path-token-replacer-loader.git"
+    },
+    "keywords": [
+      "webpack",
+      "loader",
+      "path",
+      "token",
+      "replace"
+    ],
+    "author": "Jair Milanes",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/layoutzweb/path-token-replacer-loader/issues"
+    },
+    "homepage": "https://github.com/layoutzweb/path-token-replacer-loader#readme",
+    "dependencies": {
+      "loader-utils": "^1.1.0"
+    },
+    "devDependencies": {
+      "chalk": "^2.1.0",
+      "webpack": "^3.5.6"
+    }
+  }
